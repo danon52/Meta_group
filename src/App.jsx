@@ -55,9 +55,6 @@ function App() {
 
 
 
-
-
-
   const [output, setOutput] = useState('')
   const Text = 'Увеличьте  Видимость   Вашего бизнеса на'
   useEffect(() => {
@@ -103,10 +100,19 @@ function App() {
         <p className="text-6xl text-white ml-5 font-bold"> Бизнес</p>
       </div>
       <div className="mt-20">
-        <p className="text-3xl text-white">Продвигайте компанию в Яндекс: Картах,</p>
-        <p className="text-3xl mt-5 text-white">Поиске и Навигаторе с помощью Яндекс Бизнеса</p>
+        <p className="text-3xl text-gray-400">Продвигайте компанию в Яндекс: Картах,</p>
+        <p className="text-3xl mt-5 text-gray-400">Поиске и Навигаторе с помощью Яндекс Бизнеса</p>
       </div>
 
+
+      <div className="mt-20 ">
+        <div className="flex justify-center">
+          <p className="text-white text-4xl">Вниз</p>
+        </div>
+        <div className="flex justify-center mt-5" >
+          <img src="iconbut.svg" alt="" />
+        </div>
+      </div>
     </div>
   );
 }
