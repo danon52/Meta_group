@@ -1,14 +1,14 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
   return (
-    <div>
-      <button onClick={() => setCount(count => count + 1)}> +</button >
-      <p className='text-2xl'>{count}</p>
-      <button onClick={() => setCount(count => count - 1)}>-</button>
-    </div >
+    <div className='bg-black'>
+      <header className='mt-5'>
+        <p className='text-white text-3xl'>
+          MetaGroupe ®
+        </p>
+      </header>
+    </div>
   )
 }
 
