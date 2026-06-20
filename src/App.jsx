@@ -93,13 +93,13 @@ function App() {
           </p>
         </header>
         {/* добавить блюр на изображение  */}
-        <div className="flex items-start gap-4 w-full  h-100 ">
+        <div className="flex items-start gap-4 w-full h-100 ">
           <div className="flex-1">
             <div className="w-163">
               <div className="w-163 flex">
-                {/* <p className="text-white text-7xl text-wrap">{output}</p> */}
+                <p className="text-white text-7xl text-wrap">{output}</p>
               </div>
-              <div className="mt-20 flex">
+              <div className="mt-10 flex">
                 <img src="Yandex.svg" alt="" />
                 <p className="text-6xl text-white ml-5 font-bold"> Бизнес</p>
               </div>
@@ -129,7 +129,7 @@ function App() {
         <p className="text-white text-7xl">{Bisness}</p>
       </div> */}
 
-        <div className="mt-20">
+        <div className="mt-15">
           <p className="text-3xl text-gray-400">Продвигайте компанию в Яндекс: Картах,</p>
           <p className="text-3xl mt-5 text-gray-400">Поиске и Навигаторе с помощью Яндекс Бизнеса</p>
         </div>
@@ -146,38 +146,147 @@ function App() {
         <div>
         </div>
       </div>
+      <div className="overflow-hidden whitespace-nowrap mt-10">
+        <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+          <ul className="flex animate-marquee">
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+          </ul>
+          <ul className="flex animate-marquee">
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li><li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li><li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li><li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li><li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li><li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+          </ul>
+          <ul className="flex items-center gap-8">
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
 
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+            <li className="flex items-center whitespace-nowrap">
+              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+            </li>
+          </ul>
+        </div>
 
-      <div ref={SmoothScroll} className="flex mt-50 justify-between mt-20 px-15 h-screen w-full snap-start scroll-smooth ">
-        <div className="text-center mt-40 w-120 border rounded-2xl h-80  ">
-          <p className="text-white text-3xl"> Проблема</p>
-          <div className=" mt-3">
-            <p className="text-white text-xl">Ваш бизнес может быть хорошим, <br /> но если профиль в Яндекс.Бизнесе оформлен слабо,  <br /> клиенты просто проходят мимо. <br /> В конкурентной выдаче выигрывают те, чья карточка заметнее, <br /> информативнее и вызывает больше доверия</p>
+      </div>
+
+      <div ref={SmoothScroll} className="flex mt-50 ">
+        <div className="flex justify-between  px-15 h-screen w-full snap-start scroll-smooth mt-40 ">
+          <div className="text-center mt-40 w-120 border rounded-2xl h-80  ">
+            <p className="text-white text-3xl"> Проблема</p>
+            <div className=" mt-3">
+              <p className="text-white text-xl">Ваш бизнес может быть хорошим, <br /> но если профиль в Яндекс.Бизнесе оформлен слабо,  <br /> клиенты просто проходят мимо. <br /> В конкурентной выдаче выигрывают те, чья карточка заметнее, <br /> информативнее и вызывает больше доверия</p>
+            </div>
+          </div>
+          <div className="text-center w-120 border rounded-2xl h-80  ">
+            <div>
+              <p className="text-white text-3xl">Почему мы  </p>
+            </div>
+            <div className="mt-3">
+              <p className="text-white  text-xl">MetaGroup не просто заполняет профиль, <br /> а превращает Яндекс.Бизнес в рабочий инструмент продаж. <br /> Мы знаем, как оформить карточку так, <br /> чтобы она выглядела профессионально, <br />
+                вызывала доверие и помогала клиенту выбрать именно вас.</p>
+            </div>
+          </div>
+          <div className="text-center mt-40 w-120 border rounded-2xl h-80 ">
+            <div>
+              <p className="text-white text-3xl">Решение</p>
+            </div>
+            <div className=" mt-3">
+              <p className="text-white  text-xl">MetaGroup превращает ваш профиль Яндекс.Бизнес  <br /> в эффективный канал привлечения клиентов. <br />
+                Мы продумываем оформление, контент и SEO-настройку так, <br /> чтобы карточка вызывала доверие, привлекала внимание и <br /> помогала получать обращения.</p>
+            </div>
           </div>
         </div>
-        <div className="text-center w-120 border rounded-2xl h-80  transition transform hover:scale-105">
-          <div>
-            <p className="text-white text-3xl">Почему мы  </p>
-          </div>
-          <div className="mt-3">
-            <p className="text-white  text-xl">MetaGroup не просто заполняет профиль, <br /> а превращает Яндекс.Бизнес в рабочий инструмент продаж. <br /> Мы знаем, как оформить карточку так, <br /> чтобы она выглядела профессионально, <br />
-              вызывала доверие и помогала клиенту выбрать именно вас.</p>
-          </div>
-        </div>
-        <div className="text-center mt-40 w-120 border rounded-2xl h-80 ">
-          <div>
-            <p className="text-white text-3xl">Решение</p>
-          </div>
-          <div className=" mt-3">
-            <p className="text-white  text-xl">MetaGroup превращает ваш профиль Яндекс.Бизнес  <br /> в эффективный канал привлечения клиентов. <br />
-              Мы продумываем оформление, контент и SEO-настройку так, <br /> чтобы карточка вызывала доверие, привлекала внимание и <br /> помогала получать обращения.</p>
-          </div>
-        </div>
+
       </div>
       <div className="mt-50">
         <Footer />
       </div>
-    </div>
+    </div >
   );
 }
 
