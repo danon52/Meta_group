@@ -80,9 +80,6 @@ function App() {
   }
 
 
-
-
-
   // h-screen w-full overflow-y-scroll snap-y snap-mandatory
   return (
     <div className="  ">
@@ -255,14 +252,14 @@ function App() {
       </div>
 
       <div ref={SmoothScroll} className="flex mt-50 ">
-        <div className="flex justify-between  px-15 h-screen w-full snap-start scroll-smooth mt-40 ">
-          <div className="text-center mt-40 w-120 border rounded-2xl h-80  ">
+        <div className="flex justify-between  px-15 h-screen w-full snap-start scroll-smooth mt-40  ">
+          <div className="text-center mt-40 w-120 border rounded-2xl h-80 transition-all duration-300 ease-out hover:scale-105 hover:-translate-y-1 hover:shadow-lg ">
             <p className="text-white text-3xl"> Проблема</p>
             <div className=" mt-3">
               <p className="text-white text-xl">Ваш бизнес может быть хорошим, <br /> но если профиль в Яндекс.Бизнесе оформлен слабо,  <br /> клиенты просто проходят мимо. <br /> В конкурентной выдаче выигрывают те, чья карточка заметнее, <br /> информативнее и вызывает больше доверия</p>
             </div>
           </div>
-          <div className="text-center w-120 border rounded-2xl h-80  ">
+          <div className="text-center w-120 border rounded-2xl h-80 transition-all duration-300 ease-out hover:scale-105 hover:-translate-y-1 hover:shadow-lg ">
             <div>
               <p className="text-white text-3xl">Почему мы  </p>
             </div>
@@ -271,7 +268,7 @@ function App() {
                 вызывала доверие и помогала клиенту выбрать именно вас.</p>
             </div>
           </div>
-          <div className="text-center mt-40 w-120 border rounded-2xl h-80 ">
+          <div className="text-center mt-40 w-120 border rounded-2xl h-80  transition-all duration-300 ease-out hover:scale-105 hover:-translate-y-1 hover:shadow-lg">
             <div>
               <p className="text-white text-3xl">Решение</p>
             </div>
