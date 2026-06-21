@@ -6,7 +6,13 @@
 @custom-variant dark (&:is(.dark *));
 body{
     background-color: #000000;
-    margin-left: 5rem;
+    margin-left: 2rem;
+
+    
+}
+html{
+  scroll-behavior: smooth;
+  transition-duration: 1000ms;
 }
 
 @theme inline {

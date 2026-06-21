@@ -4,15 +4,18 @@ import babel from '@rolldown/plugin-babel'
 import tailwindcss from '@tailwindcss/vite'
 import path, { dirname } from 'path'
 import { fileURLToPath } from 'url'
-// https://vite.dev/config/
+
 
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 export default defineConfig({
   plugins: [
+
     react(),
-    tailwindcss(),
+    tailwindcss({
+      scrollBehavior: ['smooth'],
+    }),
     babel({
       presets: [reactCompilerPreset()]
 

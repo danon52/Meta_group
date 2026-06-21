@@ -2,6 +2,7 @@ export default {
     theme: {
         extend: {
             animation: {
+                scrollBehavior: ['smooth'],
                 'marquee': 'marquee 30s linear infinite',
             },
             keyframes: {

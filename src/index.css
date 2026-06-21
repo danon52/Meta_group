@@ -7,3 +7,6 @@
 .animate-marquee {
   animation: marquee 30s linear infinite;
 }
+/* .smooth{
+    transition-duration: 1000ms;
+} */

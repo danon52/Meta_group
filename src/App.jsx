@@ -17,7 +17,6 @@ function App() {
   //   const refreshBounds = () => {
   //     bounds = container.getBoundingClientRect();
   //   };
-
   //   const circle = createAnimatable(circleElement, {
   //     x: 20,
   //     y: 10,
@@ -55,7 +54,7 @@ function App() {
 
 
   const [output, setOutput] = useState('')
-  const Text = 'Увеличьте Видимость Вашего бизнеса на '
+  const Text = 'Увеличьте Видимость Вашего бизнеса на... '
   useEffect(() => {
     let position = 0
     let timeout;
@@ -73,62 +72,50 @@ function App() {
     return () => clearTimeout(timeout)
   }, [])
 
-
   const SmoothScroll = useRef(null)
   const ScrollHandler = () => {
     SmoothScroll.current?.scrollIntoView({ behavior: 'smooth' });
   }
 
-
   // h-screen w-full overflow-y-scroll snap-y snap-mandatory
   return (
-    <div className="  ">
+    <div className="scroll-smooth ">
       <div className="h-screen w-full snap-start scroll-smooth">
-        <header className="py-10  ">
+        <header className="py-10  ml-10 ">
           <p className="text-white text-3xl">
             MetaGroupe ®
           </p>
         </header>
         {/* добавить блюр на изображение  */}
+        {/* Start develop adaptation for mobile   */}
         <div className="flex items-start gap-4 w-full h-100 ">
           <div className="flex-1">
             <div className="w-163">
-              <div className="w-163 flex">
-                <p className="text-white text-7xl text-wrap">{output}</p>
+              <div className="w-100 flex sm:w-70 ">
+                <p className="text-white text-2xl text-wrap lg:text-3xl">{output}</p>
               </div>
-              <div className="mt-10 flex">
-                <img src="Yandex.svg" alt="" />
-                <p className="text-6xl text-white ml-5 font-bold"> Бизнес</p>
+              <div className="mt-5 flex ">
+                <img className="w-10 sm:w-15" src="Yandex.svg" alt="" />
+                <p className="text-4xl text-white ml-5 font-bold sm:text-5xl mt-1"> Бизнес</p>
+              </div>
+            </div>
+            <div className="mt-10 flex justify-center w-105 sm:w-full sm:flex justify-start">
+              <button className="w-45 text-center h-15  border py-2  text-white rounded-3xl 
+              shadow-white  sm:w-60 sm:h-20 sm:text-2xl  sm:hover:bg-[#151414] sm:hover:text-white
+              transition-all duration-500 ease-out sm:hover:scale-105 sm:hover:translate-y-1 sm:hover:shadow-lg ">
+                Заказать оформление
+              </button>
+              <div className="ml-5">
+                <button className="text-white w-45 h-15 border text-center py-2 rounded-2xl  sm:w-60 sm:h-20 sm:text-2xl  sm:hover:bg-[#151414] sm:hover:text-white
+              transition-all duration-500 ease-out sm:hover:scale-105 sm:hover:translate-y-1 sm:hover:shadow-lg ">Подробнее</button>
               </div>
             </div>
           </div>
-          {/* <div className="flex-shrink-0 mt-[-90px] h-100 mr-20 p-0 w-150 ">
-            <img className="w-150 absolute" src="Folder.svg" alt="" />
-            <div className="flex-shrink-0 relative">
-              <img className="ml-50 mt-50" src="loca.svg" alt="" />
-              <div className="flex-shrink-0 justify-between w-100 relative">
-                <div>
-                  <img className="ml-40" src="galga.svg" alt="" />
-                </div>
-                <div className="flex justify-end">
-                  <img className="mt-20" src="Vector.svg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
-        {/* <div className="">
-        <div className="flex" >
-          <p className="text-white text-7xl" >{increase}</p>
-          <span className="animate-pulse h-10 w-0.5 bg-white ml-4 mt-5"> </span>
-        </div>
-        <p className="text-white text-7xl py-5">{Look}</p>
-        <p className="text-white text-7xl">{Bisness}</p>
-      </div> */}
-
-        <div className="mt-15">
-          <p className="text-3xl text-gray-400">Продвигайте компанию в Яндекс: Картах,</p>
-          <p className="text-3xl mt-5 text-gray-400">Поиске и Навигаторе с помощью Яндекс Бизнеса</p>
+        <div className="">
+          <p className="text-5xl text-white">Продвигайте компанию <br /> в Яндекс: Картах,</p>
+          <p className="text-4xl  py-3 text-[#D14A0B]">Поиске и Навигаторе с  <br />помощью Яндекс Бизнеса</p>
+          <p className="text-3xl text-gray-400">Пока ваш профиль молчит, клиенты <br /> уходят к соседнему пину на карте</p>
         </div>
         <div className="mt-20 ">
           <div className="flex justify-center">
@@ -143,7 +130,7 @@ function App() {
         <div>
         </div>
       </div>
-      <div className="overflow-hidden whitespace-nowrap mt-10">
+      {/* <div className="overflow-hidden whitespace-nowrap mt-10">
         <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
           <ul className="flex animate-marquee">
             <li className="flex items-center whitespace-nowrap">
@@ -249,19 +236,19 @@ function App() {
           </ul>
         </div>
 
-      </div>
+      </div> */}
 
-      <div ref={SmoothScroll} className="flex mt-50 ">
+      {/* <div ref={SmoothScroll} className="flex mt-50 ">
         <div className="flex justify-between  px-15 h-screen w-full snap-start scroll-smooth mt-40  ">
           <div className="text-center mt-40 w-120 border rounded-2xl h-80 transition-all duration-300 ease-out hover:scale-105 hover:-translate-y-1 hover:shadow-lg ">
-            <p className="text-white text-3xl"> Проблема</p>
+            <p className="text-white text-5xl mt-5"> Проблема</p>
             <div className=" mt-3">
               <p className="text-white text-xl">Ваш бизнес может быть хорошим, <br /> но если профиль в Яндекс.Бизнесе оформлен слабо,  <br /> клиенты просто проходят мимо. <br /> В конкурентной выдаче выигрывают те, чья карточка заметнее, <br /> информативнее и вызывает больше доверия</p>
             </div>
           </div>
           <div className="text-center w-120 border rounded-2xl h-80 transition-all duration-300 ease-out hover:scale-105 hover:-translate-y-1 hover:shadow-lg ">
             <div>
-              <p className="text-white text-3xl">Почему мы  </p>
+              <p className="text-white text-5xl mt-5">Почему мы  </p>
             </div>
             <div className="mt-3">
               <p className="text-white  text-xl">MetaGroup не просто заполняет профиль, <br /> а превращает Яндекс.Бизнес в рабочий инструмент продаж. <br /> Мы знаем, как оформить карточку так, <br /> чтобы она выглядела профессионально, <br />
@@ -270,7 +257,7 @@ function App() {
           </div>
           <div className="text-center mt-40 w-120 border rounded-2xl h-80  transition-all duration-300 ease-out hover:scale-105 hover:-translate-y-1 hover:shadow-lg">
             <div>
-              <p className="text-white text-3xl">Решение</p>
+              <p className="text-white text-5xl mt-5">Решение</p>
             </div>
             <div className=" mt-3">
               <p className="text-white  text-xl">MetaGroup превращает ваш профиль Яндекс.Бизнес  <br /> в эффективный канал привлечения клиентов. <br />
@@ -278,13 +265,11 @@ function App() {
             </div>
           </div>
         </div>
-
-      </div>
+      </div> */}
       <div className="mt-50">
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div >
   );
 }
-
 export default App;
