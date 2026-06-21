@@ -79,43 +79,70 @@ function App() {
 
   // h-screen w-full overflow-y-scroll snap-y snap-mandatory
   return (
-    <div className="scroll-smooth ">
-      <div className="h-screen w-full snap-start scroll-smooth">
-        <header className="py-10  ml-10 ">
+    <div className="h-screen w-full snap-start scroll-smooth">
+      <div className="">
+        <header className="py-10  flex  ">
           <p className="text-white text-3xl">
             MetaGroupe ®
           </p>
+          <div className="px-4">
+            <button className="w-40 h-10 border rounded-2xl  text-white bg-">Заказать услугу </button>
+          </div>
         </header>
         {/* добавить блюр на изображение  */}
         {/* Start develop adaptation for mobile   */}
-        <div className="flex items-start gap-4 w-full h-100 ">
+        <div className="flex items-start gap-4 w-full">
           <div className="flex-1">
             <div className="w-163">
-              <div className="w-100 flex sm:w-70 ">
-                <p className="text-white text-2xl text-wrap lg:text-3xl">{output}</p>
+              <div className="w-100 flex lg:w-70 ">
+                {/* <p className="text-white text-2xl text-wrap lg:text-3xl">{output}</p> */}
               </div>
               <div className="mt-5 flex ">
-                <img className="w-10 sm:w-15" src="Yandex.svg" alt="" />
-                <p className="text-4xl text-white ml-5 font-bold sm:text-5xl mt-1"> Бизнес</p>
+                <img className="w-10 lg:w-15" src="Yandex.svg" alt="" />
+                <p className="text-4xl text-white ml-5 font-bold lg:text-5xl mt-1"> Бизнес</p>
               </div>
             </div>
-            <div className="mt-10 flex justify-center w-105 sm:w-full sm:flex justify-start">
-              <button className="w-45 text-center h-15  border py-2  text-white rounded-3xl 
-              shadow-white  sm:w-60 sm:h-20 sm:text-2xl  sm:hover:bg-[#151414] sm:hover:text-white
-              transition-all duration-500 ease-out sm:hover:scale-105 sm:hover:translate-y-1 sm:hover:shadow-lg ">
+            <div className="mt-5 w-80">
+              <p className="text-3xl text-[#FF6A3D] font-bold">Пока ваш профиль молчит, <br /> клиенты  уходят к соседнему <br /> пину на карте</p>
+            </div>
+            <div className="mt-10   w-105  lg:flex justify-start">
+              <button className="w-80 active:bg-[#FF6A3D] ml-5  text-center h-15  border py-2  text-white rounded-3xl 
+              shadow-white  lg:w-60 lg:h-20 lg:text-2xl  lg:hover:bg-[#151414] sm:hover:text-white
+              transition-all duration-500 ease-out lg:hover:scale-105 sm:hover:translate-y-1 lg:hover:shadow-lg ">
                 Заказать оформление
               </button>
-              <div className="ml-5">
-                <button className="text-white w-45 h-15 border text-center py-2 rounded-2xl  sm:w-60 sm:h-20 sm:text-2xl  sm:hover:bg-[#151414] sm:hover:text-white
-              transition-all duration-500 ease-out sm:hover:scale-105 sm:hover:translate-y-1 sm:hover:shadow-lg ">Подробнее</button>
+              <div className="ml-5 mt-5">
+                <button className="text-white w-80 active:bg-[#5B1111] h-15 border text-center py-2 rounded-3xl  lg:w-60 lg:h-20 lg:text-2xl  sm:hover:bg-[#151414] sm:hover:text-white
+              transition-all duration-500 ease-out lg:hover:scale-105 sm:hover:translate-y-1 lg:hover:shadow-lg ">Подробнее</button>
               </div>
             </div>
           </div>
         </div>
-        <div className="">
-          <p className="text-5xl text-white">Продвигайте компанию <br /> в Яндекс: Картах,</p>
-          <p className="text-4xl  py-3 text-[#D14A0B]">Поиске и Навигаторе с  <br />помощью Яндекс Бизнеса</p>
-          <p className="text-3xl text-gray-400">Пока ваш профиль молчит, клиенты <br /> уходят к соседнему пину на карте</p>
+        <div>
+          <div className="mt-20">
+            <hr className="bg-white w-90 mt-2" />
+            <div>
+              <p className="text-white text-2xl mt-2">50 млн+</p>
+              <p className="text-gray-400">человек открывает Яндекс карты каждый месяц </p>
+            </div>
+            <div className="">
+              <hr className="bg-white w-90 mt-2" />
+              <p className="text-white text-2xl mt-2">11</p>
+              <p className="text-gray-400">Пунктов входит в полное оформление профиля </p>
+            </div>
+            <hr className="bg-white w-90 mt-2" />
+            <div>
+              <p className="text-white text-2xl mt-2">~30</p>
+              <p className="text-gray-400 text-xl">дней - средний срок выполнение работ </p>
+            </div>
+            <hr className="bg-white w-90 mt-2" />
+
+          </div>
+        </div>
+
+        {/* <div className="mt-20">
+          <p className="text-3xl text-white">Продвигайте компанию <br /> в Яндекс: Картах,</p>
+          <p className="text-2xl  py-3 text-[#D14A0B]">Поиске и Навигаторе с  <br />помощью Яндекс Бизнеса</p>
         </div>
         <div className="mt-20 ">
           <div className="flex justify-center">
@@ -126,10 +153,29 @@ function App() {
               <img src="iconbut.svg" alt="" />
             </button>
           </div>
-        </div>
+        </div> */}
         <div>
         </div>
       </div>
+
+      <div className="mt-20">
+        <div className="w-full  ">
+
+          <p className="text-3xl text-white ">Дело не в том, что у вас нет клиентов. Дело в том,  что они видят <p className="text-[#FF6A3D]">соседний пин</p>,а не ваш.</p>
+
+        </div>
+        <div className="mt-5">
+          <p className="text-gray-400 text-2xl">Без оформленного профиля компания теряется среди конкурентов именно в тот момент, когда клиент уже готов прийти, — он просто выбирает того, чья карточка ответила первой</p>
+        </div>
+
+
+        <div>
+          <div>
+
+          </div>
+        </div>
+      </div>
+
       {/* <div className="overflow-hidden whitespace-nowrap mt-10">
         <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
           <ul className="flex animate-marquee">
