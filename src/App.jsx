@@ -173,7 +173,6 @@ function App() {
               <img className='w-3 ml-4' src="×.svg" alt="" />
               <p className="text-white ml-6 mt-5">Профиль без фото и описания — мимо проходят, не открывая карточку</p>
             </div>
-
           </div>
           <div className="w-full h-22   rounded-2xl  border mt-10" >
             <div className="flex">
@@ -184,9 +183,8 @@ function App() {
           <div className="w-full h-22   bg-none  rounded-2xl  border mt-10" >
             <div className="flex">
               <img className='w-3 ml-4' src="×.svg" alt="" />
-              <p className="text-white ml-6 mt-5">Карточка не продвигается - компанию не находят на карте </p>
+              <p className="text-white ml-6 mt-5">Карточка не продвигается - компанию не находят на карте  </p>
             </div>
-
           </div>
         </div>
       </div>
@@ -213,7 +211,78 @@ function App() {
             <p className="text-xl ml-2">Не отвечает на отзывы  </p>
           </div>
         </div>
+      </div>
+      <div className="w-70 text-2xl">
+        <div>
+          <p>Решение</p>
+        </div>
+        <div className="mt-5">
+          <p>Маршрут клиента к вашей карточке — собираем по пунктам</p>
+        </div>
+      </div>
+      <div className="mt-10">
+        <div className="w-20 h-20 rounded-full border">
+          <p className="px-7 py-6 text-xl">01</p>
+        </div>
+        <div className="py-10">
 
+          <div className="w-20 h-20 rounded-full border">
+            <p className="px-6 py-6 text-xl ">02</p>
+          </div>
+        </div>
+        <div className="py-10">
+
+          <div className="w-20 h-20 rounded-full border">
+            <p className="px-6 py-6 text-xl ">03</p>
+          </div>
+        </div>
+        <div className="py-10">
+          <div className="w-20  h-20 rounded-full border">
+            <p className="px-6 py-6 text-xl ">04</p>
+          </div>
+        </div>
+        <div className="py-10">
+
+          <div className="w-20 h-20 rounded-full border">
+            <p className="px-6 py-6 text-xl  ">05</p>
+          </div>
+        </div>
+        <div className="py-10">
+
+          <div className="w-20 h-20 rounded-full border">
+            <p className="px-6 py-6 text-xl ">06</p>
+          </div>
+        </div>
+        <div className="py-10">
+
+          <div className="w-20 h-20 rounded-full border">
+            <p className="px-6 py-6 text-xl"  >07</p>
+          </div>
+        </div>
+        <div className="py-10">
+
+          <div className="w-20 h-20 rounded-full border">
+            <p className="px-6 py-6 text-xl">08</p>
+          </div>
+        </div>
+        <div className="py-10">
+
+          <div className="w-20 h-20 rounded-full border">
+            <p className="px-6 py-6 text-xl ">09</p>
+          </div>
+        </div>
+        <div className="py-10">
+
+          <div className="w-20 h-20 rounded-full border">
+            <p className="px-6 py-6 text-xl ">10</p>
+          </div>
+        </div>
+        <div className="py-10">
+
+          <div className="w-20 h-20 rounded-full border">
+            <p className="px-6 py-6 text-xl ">11</p>
+          </div>
+        </div>
       </div>
 
       {/* <div className="overflow-hidden whitespace-nowrap mt-10">
