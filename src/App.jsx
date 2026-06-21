@@ -157,23 +157,62 @@ function App() {
         <div>
         </div>
       </div>
-
       <div className="mt-20">
-        <div className="w-full  ">
-
+        {/* <div className="w-full  ">
           <p className="text-3xl text-white ">Дело не в том, что у вас нет клиентов. Дело в том,  что они видят <p className="text-[#FF6A3D]">соседний пин</p>,а не ваш.</p>
-
-        </div>
+        </div> */}
         <div className="mt-5">
           <p className="text-gray-400 text-2xl">Без оформленного профиля компания теряется среди конкурентов именно в тот момент, когда клиент уже готов прийти, — он просто выбирает того, чья карточка ответила первой</p>
         </div>
-
-
+      </div>
+      <div className="mt-10">
         <div>
-          <div>
+          <div className="w-full h-22   rounded-2xl  border" >
+            <div className="flex">
+              <img className='w-3 ml-4' src="×.svg" alt="" />
+              <p className="text-white ml-6 mt-5">Профиль без фото и описания — мимо проходят, не открывая карточку</p>
+            </div>
+
+          </div>
+          <div className="w-full h-22   rounded-2xl  border mt-10" >
+            <div className="flex">
+              <img className='w-3 ml-4' src="×.svg" alt="" />
+              <p className="text-white ml-6 mt-5">Профиль без фото и описания — мимо проходят, не открывая карточку</p>
+            </div>
+          </div>
+          <div className="w-full h-22   bg-none  rounded-2xl  border mt-10" >
+            <div className="flex">
+              <img className='w-3 ml-4' src="×.svg" alt="" />
+              <p className="text-white ml-6 mt-5">Профиль без фото и описания — мимо проходят, не открывая карточку</p>
+            </div>
 
           </div>
         </div>
+      </div>
+      {/* блок с демонстрацией  */}
+      <div className="mt-20">
+        <div className="w-full h-100 border rounded-2xl">
+          <div>
+            <p className="text-white text-xl mt-2 ml-10">Кофейня рядом · поиск</p>
+          </div>
+          <div className="mt-5 ml-5 w-90 border rounded-2xl py-3 h-20">
+            {/* еще картинка будет */}
+            <p className="text-xl ml-2">Кофейня Атлас - оформлен профль </p>
+            <p className="text-xl ml-2">4.9 230 отзывов </p>
+          </div>
+
+          <div className=" mt-10 ml-5 w-90 border rounded-2xl py-3 h-20">
+            {/* еще картинка будет */}
+            <p className="text-xl ml-2">Кофейня Атлас - оформлен профль </p>
+            <p className="text-xl ml-2">4.9 230 отзывов </p>
+          </div>
+          <div className="  mt-10 ml-5 w-90 border rounded-2xl py-3 h-20">
+            {/* еще картинка будет */}
+            <p className="text-xl ml-2">Кофейня Атлас - оформлен профль </p>
+            <p className="text-xl ml-2">4.9 230 отзывов </p>
+          </div>
+        </div>
+
       </div>
 
       {/* <div className="overflow-hidden whitespace-nowrap mt-10">
@@ -182,107 +221,107 @@ function App() {
             <li className="flex items-center whitespace-nowrap">
               <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
               <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-          </ul>
-          <ul className="flex animate-marquee">
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li><li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li><li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li><li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li><li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li><li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-          </ul>
-          <ul className="flex items-center gap-8">
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+        </ul>
+        <ul className="flex animate-marquee">
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li><li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li><li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li><li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li><li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li><li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+        </ul>
+        <ul className="flex items-center gap-8">
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
 
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-            </li>
-          </ul>
-        </div>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+          <li className="flex items-center whitespace-nowrap">
+            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
+            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
+          </li>
+        </ul>
+      </div>
 
-      </div> */}
+    </div> */}
 
       {/* <div ref={SmoothScroll} className="flex mt-50 ">
         <div className="flex justify-between  px-15 h-screen w-full snap-start scroll-smooth mt-40  ">
