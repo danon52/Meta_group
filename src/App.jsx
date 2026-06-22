@@ -268,9 +268,56 @@ function App() {
             <p className=" text-xl lg:text-2xl text-[#E0E0E0]">Маршрут клиента к вашей карточке — собираем по пунктам</p>
           </div>
         </div>
-
       </div>
 
+
+      <div className="grid grid-cols-4 gap-4" >
+
+        <div className="border w-50 h-auto ">
+          <p>
+            Геолокация и вход
+          </p>
+          <p>Корректное размещение точки на карте и привязка в оргазинацию</p>
+        </div>
+        <div className="border w-50 h-auto " >
+          <p>
+            Геолокация и вход
+          </p>
+          <p>Корректное размещение точки на карте и привязка в оргазинацию</p>
+        </div>
+        <div className="border w-50 h-auto " >
+          <p>
+            Геолокация и вход
+          </p>
+          <p>Корректное размещение точки на карте и привязка в оргазинацию</p>
+        </div>
+        <div className="border w-50 h-auto " >
+          <p>
+            Геолокация и вход
+          </p>
+          <p>Корректное размещение точки на карте и привязка в оргазинацию</p>
+        </div>
+        <div className="border w-50 h-auto " >
+          <p>
+            Геолокация и вход
+          </p>
+          <p>Корректное размещение точки на карте и привязка в оргазинацию</p>
+        </div>
+        <div className="border w-50 h-auto " >
+          <p>
+            Геолокация и вход
+          </p>
+          <p>Корректное размещение точки на карте и привязка в оргазинацию</p>
+        </div>
+        <div className="border w-50 h-auto " >
+          <p>
+            Геолокация и вход
+          </p>
+          <p>Корректное размещение точки на карте и привязка в оргазинацию</p>
+        </div>
+
+
+      </div>
       {/* <div className="overflow-hidden whitespace-nowrap mt-10">
         <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
           <ul className="flex animate-marquee">
