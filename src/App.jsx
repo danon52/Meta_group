@@ -268,73 +268,7 @@ function App() {
             <p className=" text-xl lg:text-2xl text-[#E0E0E0]">Маршрут клиента к вашей карточке — собираем по пунктам</p>
           </div>
         </div>
-        <div className="flex justify-center">
-          <div className="mt-10  ">
 
-            <div className="w-20 h-20 rounded-full border">
-              <p className="px-7 py-6 text-xl">01</p>
-            </div>
-            <div className="py-10">
-
-              <div className="w-20 h-20 rounded-full border">
-                <p className="px-6 py-6 text-xl ">02</p>
-              </div>
-            </div>
-            <div className="">
-
-              <div className="w-20 h-20 rounded-full border">
-                <p className="px-6 py-6 text-xl ">03</p>
-              </div>
-            </div>
-            <div className="py-10">
-              <div className="w-20  h-20 rounded-full border">
-                <p className="px-6 py-6 text-xl ">04</p>
-              </div>
-            </div>
-            <div className="">
-
-              <div className="w-20 h-20 rounded-full border">
-                <p className="px-6 py-6 text-xl  ">05</p>
-              </div>
-            </div>
-            <div className="py-10">
-
-              <div className="w-20 h-20 rounded-full border">
-                <p className="px-6 py-6 text-xl ">06</p>
-              </div>
-            </div>
-            <div className="">
-
-              <div className="w-20 h-20 rounded-full border">
-                <p className="px-6 py-6 text-xl"  >07</p>
-              </div>
-            </div>
-            <div className="py-10">
-
-              <div className="w-20 h-20 rounded-full border">
-                <p className="px-6 py-6 text-xl">08</p>
-              </div>
-            </div>
-            <div className="">
-
-              <div className="w-20 h-20 rounded-full border">
-                <p className="px-6 py-6 text-xl ">09</p>
-              </div>
-            </div>
-            <div className="py-10">
-
-              <div className="w-20 h-20 rounded-full border">
-                <p className="px-7 py-6 text-xl ">10</p>
-              </div>
-            </div>
-            <div className="py-10">
-
-              <div className="w-20 h-20 rounded-full border">
-                <p className="px-6 py-6 text-xl  ">11</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
 
       {/* <div className="overflow-hidden whitespace-nowrap mt-10">
