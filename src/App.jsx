@@ -248,233 +248,96 @@ function App() {
             <p className=" text-xl mt-5 text-[#4A7FAA] lg:text-3xl mt-5 text-[#4A7FAA]">Решение</p>
           </div>
           <div className="mt-5">
-            <p className=" text-xl lg:text-2xl text-[#E0E0E0]">Маршрут клиента к вашей карточке — собираем по пунктам</p>
+            <p className=" text-xl lg:text-2xl text-[#E0E0E0]"></p>
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 mt-10 gap-5   " >
-        <div className="border w-90 h-50 ">
-          <p className="text-xl">01</p>
+      <div className="grid grid-cols-3 mt-10 gap-5   " >
+        <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl w-100 h-50 hover:bg-[#252525] duration-300 hover:border-[#888888]  hover:scale-105 ">
+          <p className="text-xl  px-5" >01</p>
           <p className="text-xl">
             Геолокация и вход
           </p>
-          <p className="text-xl mt-4 px-2">Корректное размещение точки на карте и привязка в оргазинацию</p>
+          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">Корректное размещение точки на карте и привязка в оргазинацию</p>
         </div>
 
-        <div className="border w-90 h-50 ">
-          <p className="text-xl">02</p>
-          <p className="text-xl">
+        <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50  hover:bg-[#252525]  hover:border-[#888888]  duration-300 hover:scale-105">
+          <p className="text-xl  px-5" >02</p>
+          <p className="text-xl px-5 py">
             Шапка профиля
           </p>
-          <p className="text-xl mt-4 px-2">Название, категория, график работы, контакты — всё, что видно первым.</p>
-        </div> <div className="border w-90 h-50 ">
-          <p className="text-xl">03</p>
-          <p className="text-xl">
+          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">Название, категория, график работы, контакты — всё, что видно первым.</p>
+        </div>
+        <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105 ">
+          <p className="text-xl px-5">03</p>
+          <p className="text-xl px-5 py-2">
             Оформление профиля
           </p>
-          <p className="text-xl mt-4 px-2">Обложка, логотип, карточки товаров — единый визуальный стиль.
+          <p className="text-xl mt-4 px-3  text-[#E0E0E0]">Обложка, логотип, карточки товаров — единый визуальный стиль.
 
           </p>
-        </div> <div className="border w-90 h-50 ">
-          <p className="text-xl">04</p>
-          <p className="text-xl">
+        </div> <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50  hover:bg-[#252525]  hover:border-[#888888]  duration-300 hover:scale-105">
+          <p className="text-xl  px-5 ">04</p>
+          <p className="text-xl px-5 py-2">
             Фотографии по разделам
           </p>
-          <p className="text-xl mt-4 px-2">Структурированная фотолента: интерьер, услуги, команда, результаты.</p>
-        </div> <div className="border w-90 h-50 ">
-          <p className="text-xl">05</p>
-          <p className="text-xl">
+          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">Структурированная фотолента: интерьер, услуги, команда, результаты.</p>
+        </div> <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105 ">
+          <p className="text-xl  px-5">05</p>
+          <p className="text-xl px-5 py-2">
             Внешние ссылки
           </p>
-          <p className="text-xl mt-4 px-2">Сайт, соцсети и мессенджеры — все пути до вас в одном месте.</p>
-        </div> <div className="border w-90 h-50 ">
-          <p className="text-xl">06</p>
-          <p className="text-xl">
+          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">Сайт, соцсети и мессенджеры — все пути до вас в одном месте.</p>
+        </div>
+        <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] duration-300  hover:border-[#888888]  hover:scale-105 ">
+          <p className="text-xl  px-5">06</p>
+          <p className="text-xl px-5 py-2">
             Витрина товаров
           </p>
-          <p className="text-xl mt-4 px-2">До 20 позиций товаров или услуг с ценами и описанием.</p>
-        </div> <div className="border w-90 h-50 ">
-          <p className="text-xl">07</p>
-          <p className="text-xl">
+          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">До 20 позиций товаров или услуг с ценами и описанием.</p>
+        </div> <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]  duration-300  hover:scale-105 ">
+          <p className="text-xl  px-5">07</p>
+          <p className="text-xl px-5 py-2">
             Новости и акции
           </p>
-          <p className="text-xl mt-4 px-2">До 5 публикаций — повод вернуться и заметить вас снова.</p>
-        </div> <div className="border w-90 h-50 ">
-          <p className="text-xl">08</p>
-          <p className="text-xl">
+          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">До 5 публикаций — повод вернуться и заметить вас снова.</p>
+        </div>
+        <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50  hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105">
+          <p className="text-xl  px-5">08</p>
+          <p className="text-xl px-5 py-2">
             Работа с отзывами
           </p>
-          <p className="text-xl mt-4 px-2">Ответы на отзывы и выстраивание репутации профиля.
-
+          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">Ответы на отзывы и выстраивание репутации профиля.
           </p>
-        </div> <div className="border w-90 h-50 ">
-          <p className="text-xl">09</p>
-          <p className="text-xl">
+        </div> <div className="border  border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl w-100 h-50 
+         hover:bg-[#252525] duration-300 hover:scale-105">
+          <p className="text-xl  px-5">09</p>
+          <p className="text-xl px-5 py-2">
             QR-код профиля
           </p>
-          <p className="text-xl mt-4 px-2">Код со ссылкой на карточку — для вывесок, меню, визиток.
-
+          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">Код со ссылкой на карточку — для вывесок, меню, визиток.
           </p>
-        </div> <div className="border w-90 h-50 ">
-          <p className="text-xl">10</p>
-          <p className="text-xl">
+        </div> <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105 ">
+          <p className="text-xl  px-5">10</p>
+          <p className="text-xl px-5 py-2">
             Лента сторис
           </p>
-          <p className="text-xl mt-4 px-2">Короткие визуальные обновления прямо в профиле компании.
-
+          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">Короткие визуальные обновления прямо в профиле компании.
           </p>
         </div>
-        <div className="border w-90 h-50 ">
-          <p className="text-xl">11</p>
-          <p className="text-xl">
+        <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105 ">
+          <p className="text-xl  px-5">11</p>
+          <p className="text-xl px-5 py-2">
             SEO-продвижение карточки
           </p>
           <p className="text-xl mt-4 px-2">Работа с ключевыми словами, чтобы карточку находили чаще.
-
           </p>
         </div>
-
       </div>
-      {/* <div className="overflow-hidden whitespace-nowrap mt-10">
-        <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
-          <ul className="flex animate-marquee">
-            <li className="flex items-center whitespace-nowrap">
-              <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-              <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-        </ul>
-        <ul className="flex animate-marquee">
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li><li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li><li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li><li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li><li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li><li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-        </ul>
-        <ul className="flex items-center gap-8">
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-          <li className="flex items-center whitespace-nowrap">
-            <p className="text-2xl px-6 py-4 text-white">Яндекс</p>
-            <img className='px-10' src="/Yandex.svg" alt="Yandex" />
-          </li>
-        </ul>
-      </div>
-
-    </div> */}
-
-      {/* <div ref={SmoothScroll} className="flex mt-50 ">
-        <div className="flex justify-between  px-15 h-screen w-full snap-start scroll-smooth mt-40  ">
-          <div className="text-center mt-40 w-120 border rounded-2xl h-80 transition-all duration-300 ease-out hover:scale-105 hover:-translate-y-1 hover:shadow-lg ">
-            <p className="text-white text-5xl mt-5"> Проблема</p>
-            <div className=" mt-3">
-              <p className="text-white text-xl">Ваш бизнес может быть хорошим, <br /> но если профиль в Яндекс.Бизнесе оформлен слабо,  <br /> клиенты просто проходят мимо. <br /> В конкурентной выдаче выигрывают те, чья карточка заметнее, <br /> информативнее и вызывает больше доверия</p>
-            </div>
-          </div>
-          <div className="text-center w-120 border rounded-2xl h-80 transition-all duration-300 ease-out hover:scale-105 hover:-translate-y-1 hover:shadow-lg ">
-            <div>
-              <p className="text-white text-5xl mt-5">Почему мы  </p>
-            </div>
-            <div className="mt-3">
-              <p className="text-white  text-xl">MetaGroup не просто заполняет профиль, <br /> а превращает Яндекс.Бизнес в рабочий инструмент продаж. <br /> Мы знаем, как оформить карточку так, <br /> чтобы она выглядела профессионально, <br />
-                вызывала доверие и помогала клиенту выбрать именно вас.</p>
-            </div>
-          </div>
-          <div className="text-center mt-40 w-120 border rounded-2xl h-80  transition-all duration-300 ease-out hover:scale-105 hover:-translate-y-1 hover:shadow-lg">
-            <div>
-              <p className="text-white text-5xl mt-5">Решение</p>
-            </div>
-            <div className=" mt-3">
-              <p className="text-white  text-xl">MetaGroup превращает ваш профиль Яндекс.Бизнес  <br /> в эффективный канал привлечения клиентов. <br />
-                Мы продумываем оформление, контент и SEO-настройку так, <br /> чтобы карточка вызывала доверие, привлекала внимание и <br /> помогала получать обращения.</p>
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className=" hidden mt-50 lg:block">
         <Footer />
       </div>
-    </div >
+    </div>
   );
 }
 export default App;
