@@ -99,25 +99,27 @@ function App() {
         </header>
         {/* добавить блюр на изображение  */}
         {/* Start develop adaptation for mobile   */}
-        <div className="flex items-start gap-4 w-full">
+        <div className="flex items-start gap-4 w-full ">
           <div className="flex-1">
             <div className="w-163 lg:w-full">
               <div className="lg:grid grid-cols-2 flex justify-between ">
-                <div className="w-100 flex lg:w-140 ">
-                  {/* <p className="text-white text-2xl text-wrap lg:text-5xl ">{output}</p> */}
-                </div>
+
                 {/* <div className="hidden lg:block">
                   <p className=" hidden lg:block text-5xl ">
                     Оформляем карточку компании в Яндекс.Бизнесе так, чтобы из десяти <br /> конкурентов рядом выбирали вас — с первого взгляда на карту и в поиске.
                   </p>
                 </div> */}
               </div>
-              <div className="mt-30 flex ">
+
+              <div className="mt-30 flex  py-10">
                 <img className="w-10 lg:w-15" src="Yandex.svg" alt="" />
                 <p className="text-4xl text-white ml-5 font-bold lg:text-5xl mt-1"> Бизнес</p>
               </div>
             </div>
-            <div className="mt-5 w-90">
+            {/* <div className="w-100 flex lg:w-140 ">
+              <p className="text-white text-2xl text-wrap lg:text-5xl ">{output}</p>
+            </div> */}
+            <div className="px-5 py-5 w-100 border rounded-2xl hover:bg-[#252525] duration-500">
               {/* text-[#FF6A3D]  */}
               <p className="text-3xl font-bold text-[#FFFFFF]">Пока ваш профиль молчит, <br /> клиенты  уходят к соседнему <br /> пину на карте</p>
             </div>
@@ -131,6 +133,21 @@ function App() {
               <div className="ml-5 mt-5">
                 <button className="text-white w-80  active:bg-[#5B1111] h-15 border text-center py-2 rounded-3xl  lg:w-60 lg:h-20 lg:text-2xl  lg:hover:bg-[#3D3D3D] sm:hover:text-white
               transition-all duration-500 ease-out lg:hover:scale-105 lg:hover:translate-y-1 text-[#3D3D3D] lg:hover:shadow-lg ">Подробнее</button>
+              </div>
+            </div>
+          </div>
+          <div className="hidden lg:block flex-1 mt-50 ">
+            <div className="relative">
+              <div className="w-[400px] h-[400px] bg-gradient-to-br from-[#1C1C1C] to-[#0A0A0A] rounded-3xl border border-[#2E2E2E] p-6">
+                <div className="h-full flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="w-32 h-32 mx-auto  rounded-3xl flex items-center justify-center mb-6">
+                      <img src="Yandex.svg" alt="" />
+                    </div>
+                    <p className="text-white text-xl font-semibold">Ваш профиль</p>
+                    <p className="text-gray-400 mt-2">на Яндекс.Картах</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -157,33 +174,7 @@ function App() {
             <hr className="bg-white w-90 mt-2 block lg:hidden" />
           </div>
         </div>
-        <div className=" ">
-          <div className="flex justify-center mt-10">
-            <div className="border w-100 h-40 mr-10 rounded-3xl">
-              <p className="text-3xl py-2 px-5">Ищут рядом </p>
-              <div>
-                <p className="text-lg text-[#888888] px-4">Пациент с болью не открывает Google. Он
-                  открывает карту и выбирает
-                  ближайшую клинику с хорошими фото.</p>
-              </div>
-            </div>
-            <div className="border w-100 h-40 rounded-3xl">
-              <p className="text-3xl py-2 px-5">Решают за секунды </p>
-              <div cl>
-                <p className="text-lg text-[#888888] px-4">Выбор происходит в карточке: фото,
-                  отзывы, часы работы.
-                  На это уходит 30 секунд.</p>
-              </div>
-            </div>
-            <div className="border w-100 h-40 ml-10 rounded-3xl">
-              <p className="text-3xl py-2 px-5">Работает 24/7 </p>
-              <div>
-                <p className="text-lg text-[#888888] px4">Оформленный профиль приводит
-                  пациентов даже ночью, пока вы спите. Без рекламного бюджета </p>
-              </div>
-            </div>
-          </div>
-        </div>
+
 
       </div>
 
@@ -262,89 +253,82 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3 mt-10 gap-5   " >
-        <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl w-100 h-50 hover:bg-[#252525] duration-300 hover:border-[#888888]  hover:scale-105 ">
-          <p className="text-xl  px-5 mt-3" >01</p>
-          <p className=" text-3xl px-5 py-2">
-            Геолокация и вход
-          </p>
-          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">Корректное размещение точки на карте и привязка в оргазинацию</p>
+
+
+      <div className="grid grid-cols-3 w-full py-10 ">
+        <div className="flex ">
+          <p className="text-xl py-1"> 01 </p>
+          <div>
+            <p className="px-2 text-4xl">Что мы предлогаем </p>
+          </div>
+          <div>
+            <p></p>
+          </div>
+        </div>
+        <div className="w-152 px-2 ">
+          <div>
+            <div>
+              <p className='py-2 px-2'>Геолокация и вход
+                Корректное размещение точки на карте и привязка в оргазинацию</p>
+            </div>
+            <div>
+              <p className='py-2 px-2'> • Шапка профиля
+                Название, категория, график работы, контакты — всё, что видно первым.</p></div>
+            <div><p className='py-2 px-2'> • Оформление профиля
+              Обложка, логотип, карточки товаров — единый визуальный стиль.</p></div>
+            <div><p сclassName='py-2 px-2'> • Фотографии по разделам
+              Структурированная фотолента: интерьер, услуги, команда, результаты.</p></div>
+            <div><p className='py-2 px-2'> • Внешние ссылки
+              Сайт, соцсети и мессенджеры — все пути до вас в одном месте.</p></div>
+            <div>
+              <p className='py-2 px-2'> • Витрина товаров
+                До 20 позиций товаров или услуг с ценами и описанием.</p></div>
+            <div>
+              <p className='py-2 px-2' >  • Новости и акции
+                До 5 публикаций — повод вернуться и заметить вас снова.</p></div>
+            <div>
+              <p className='py-2 px-2'>• Работа с отзывами
+                Ответы на отзывы и выстраивание репутации профиля.</p></div>
+            <div>
+              <p className='py-2 px-2'>QR-код профиля
+                Код со ссылкой на карточку — для вывесок, меню, визиток.</p></div>
+            <div>
+              <p сlassName='py-2 px-2'> • Лента сторис
+                Короткие визуальные обновления прямо в профиле компании.</p></div>
+            <div>
+              <p className='py-2 px-2'> • SEO-продвижение карточки
+                Работа с ключевыми словами, чтобы карточку находили чаще.</p></div>
+          </div>
+        </div>
+        <div className="flex justify-end">
+          <button className="border w-40 h-10 rounded-3xl">Оформить</button>
         </div>
 
-        <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50  hover:bg-[#252525]  hover:border-[#888888]  duration-300 hover:scale-105">
-          <p className="text-xl  px-5" >02</p>
-          <p className="text-xl px-5 py-2">
-            Шапка профиля
-          </p>
-          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">Название, категория, график работы, контакты — всё, что видно первым.</p>
+        <div>
+          <div>
+            <p>
+              Наши преимущества
+            </p>
+          </div>
         </div>
-        <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105 ">
-          <p className="text-xl px-5">03</p>
-          <p className=" text-3xl px-5 py-2">
-            Оформление профиля
-          </p>
-          <p className="text-xl mt-4 px-5  text-[#E0E0E0]">Обложка, логотип, карточки товаров — единый визуальный стиль.
 
-          </p>
-        </div> <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50  hover:bg-[#252525]  hover:border-[#888888]  duration-300 hover:scale-105">
-          <p className="text-xl  px-5 ">04</p>
-          <p className=" text-3xl px-3 py-2">
-            Фотографии по разделам
-          </p>
-          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">Структурированная фотолента: интерьер, услуги, команда, результаты.</p>
-        </div> <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105 ">
-          <p className="text-xl  px-5">05</p>
-          <p className=" text-3xl px-5 py-2">
-            Внешние ссылки
-          </p>
-          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">Сайт, соцсети и мессенджеры — все пути до вас в одном месте.</p>
+        <div>
+          <div>
+            <p>Вас начинают видеть — Клиника появляется в локальном поиске, когда рядом ищут «стоматологию».</p>
+            <p>Вам начинают доверять — Настоящие отзывы, фото кабинетов и ответы на вопросы формируют репутацию</p>
+            <p>К вам идут сразу — Адрес, телефон, часы работы, сайт — вся информация в одной карточке.</p>
+            <p>Вы обходите конкурентов — Конкуренты уже там. Оформленный профиль возвращает вам видимость.</p>
+            <p>Вы продаёте фотографиями — Качественные снимки кабинетов и врачей создают первое впечатление.</p>
+            <p>Вы видите статистику — Аналитика показывает, сколько людей смотрит профиль и что их интересует.</p>
+            <p>Вы запускаете акции — Спецпредложения публикуются прямо в карточке и стимулируют записи.</p>
+            <p>Вы встраиваетесь в экосистему — Профиль связан с Яндекс.Такси, Поиском и другими сервисами.</p>
+          </div>
         </div>
-        <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] duration-300  hover:border-[#888888]  hover:scale-105 ">
-          <p className="text-xl  px-5">06</p>
-          <p className=" text-3xl px-5 py-2">
-            Витрина товаров
-          </p>
-          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">До 20 позиций товаров или услуг с ценами и описанием.</p>
-        </div> <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]  duration-300  hover:scale-105 ">
-          <p className="text-xl  px-5">07</p>
-          <p className=" text-3xl px-5 py-2">
-            Новости и акции
-          </p>
-          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">До 5 публикаций — повод вернуться и заметить вас снова.</p>
-        </div>
-        <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50  hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105">
-          <p className="text-xl  px-5">08</p>
-          <p className=" text-3xl px-5 py-2">
-            Работа с отзывами
-          </p>
-          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">Ответы на отзывы и выстраивание репутации профиля.
-          </p>
-        </div> <div className="border  border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl w-100 h-50 
-         hover:bg-[#252525] duration-300 hover:scale-105">
-          <p className="text-xl  px-5">09</p>
-          <p className=" text-3xl px-5 py-2">
-            QR-код профиля
-          </p>
-          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">Код со ссылкой на карточку — для вывесок, меню, визиток.
-          </p>
-        </div> <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105 ">
-          <p className="text-xl  px-5">10</p>
-          <p className=" text-3xl px-5 py-2">
-            Лента сторис
-          </p>
-          <p className="text-xl mt-4  px-5 text-[#E0E0E0]">Короткие визуальные обновления прямо в профиле компании.
-          </p>
-        </div>
-        <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105 ">
-          <p className="text-xl  px-5">11</p>
-          <p className=" text-3xl px-5 py-2">
-            SEO-продвижение карточки
-          </p>
-          <p className="text-xl mt-4 px-5">Работа с ключевыми словами, чтобы карточку находили чаще.
-          </p>
+
+        <div className="flex justify-end">
+          <button className="border w-40 h-10 rounded-3xl">Оформить</button>
         </div>
       </div>
-
 
       <div>
         <div>
@@ -421,6 +405,42 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+
+
+      <div className="gird grid-cols-2 gap-5">
+
+        <div className="w-60">
+          <p className="text-2xl">Оставьте заявку - посчиатем стоимость оформления вашего профиля </p>
+        </div>
+
+        <div>
+          <form action="">
+            <div>
+              <div>
+                <p>Имя</p>
+              </div>
+              <input className="border" type="text" placeholder="Как к вам обращатся " />
+              <div>
+                <p>Телефон</p>
+                <input type="text" />
+              </div>
+              <div>
+                <p>Email</p>
+                <div>
+                  <input type="email" placeholder="Не обязательно" />
+                </div>
+              </div>
+              <div>
+                <p>Комментарий</p>
+              </div>
+              <div>
+                <textarea className="border" name="" id=""></textarea>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
       <div className=" hidden mt-50 lg:block">
